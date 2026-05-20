@@ -31,14 +31,13 @@ SECRET_KEY = "django-insecure-y3t8&gla*gkrq1te)7u0f4d&78@=fn0nfw=pnwvn+^-xvg(5j&
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-"""ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    '30.30.30.157',
-]"""
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    ".onrender.com",
+]
 
 # Application definition
 
@@ -71,6 +70,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
 ROOT_URLCONF = "config.urls"
@@ -139,6 +139,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = "static/"
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
