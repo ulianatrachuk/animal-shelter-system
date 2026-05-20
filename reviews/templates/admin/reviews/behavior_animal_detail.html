@@ -1,0 +1,101 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<h1>{{ animal_name }}</h1>
+
+<h2>Риси та середні оцінки</h2>
+
+<table style="width:100%; border-collapse: collapse;">
+    <thead>
+        <tr>
+        <th>Риса</th>
+        <th>Середня оцінка</th>
+        <th>Кількість оцінок</th>
+        <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for trait in traits %}
+        <tr>
+            <td>{{ trait.trait__name }}</td>
+            <td>{{ trait.avg_score|floatformat:2 }}</td>
+            <td>{{ trait.reviews_count }}</td>
+            <td>
+            <a href="{% url 'admin:behavior_reviews_trait_detail' animal_id trait.trait_id %}">
+                Переглянути оцінки
+            </a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="4">Немає оцінок рис.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<br>
+
+<h2>Індивідуальні риси</h2>
+
+<table style="width:100%; border-collapse: collapse;">
+    <thead>
+        <tr>
+        <th>Риса</th>
+        <th>Так</th>
+        <th>Ні</th>
+        <th>Усього відповідей</th>
+        <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for trait in specific_traits %}
+        <tr>
+            <td>{{ trait.trait__name }}</td>
+            <td>{{ trait.yes_count }}</td>
+            <td>{{ trait.no_count }}</td>
+            <td>{{ trait.total_count }}</td>
+            <td>
+            <a href="{% url 'admin:behavior_reviews_specific_trait_detail' animal_id trait.trait_id %}">
+                Переглянути відповіді
+            </a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="5">Індивідуальних рис поки немає.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<br>
+
+<h2>Коментарі про песика</h2>
+
+<table style="width:100%; border-collapse: collapse;">
+    <thead>
+        <tr>
+        <th>Волонтер</th>
+        <th>Коментар</th>
+        <th>Дата</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for comment in comments %}
+        <tr>
+            <td>{{ comment.volunteer }}</td>
+            <td>{{ comment.comment }}</td>
+            <td>{{ comment.created_at|date:"d.m.Y H:i" }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="3">Коментарів поки немає.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<br>
+<a href="{% url 'admin:behavior_reviews_analytics' %}">← Назад до списку песиків</a>
+{% endblock %}

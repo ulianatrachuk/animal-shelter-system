@@ -1,0 +1,397 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block extrastyle %}
+<style>
+    .dashboard-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+        margin-bottom: 20px;
+    }
+
+    .stat-card {
+        border-radius: 14px;
+        padding: 14px;
+        background: white;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    }
+
+    .stat-title {
+        font-size: 13px;
+        color: #666;
+    }
+
+    .stat-value {
+        font-size: 26px;
+        font-weight: 700;
+        margin-top: 6px;
+    }
+
+    .stat-change {
+        font-size: 12px;
+        color: #4caf50;
+        margin-top: 4px;
+    }
+
+    .toolbar-row {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 18px;
+    }
+
+    .period-filters {
+        display: flex;
+        gap: 8px;
+    }
+
+    .period-filters a {
+        text-decoration: none;
+        padding: 8px 14px;
+        border-radius: 10px;
+        background: #f0f0f0;
+        color: #222 !important;
+        font-weight: 600;
+    }
+
+    .period-filters a.active {
+        background: #417690;
+        color: white !important;
+    }
+
+    .charts-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+    }
+
+    .chart-card {
+        background: white;
+        border-radius: 14px;
+        padding: 14px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    }
+
+    .chart-title {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .chart-subtitle {
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 8px;
+    }
+
+    canvas {
+        max-height: 200px;
+        cursor: pointer;
+    }
+
+    .heatmap-card {
+        margin-top: 14px;
+        background: white;
+        border-radius: 14px;
+        padding: 14px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    }
+
+    .heatmap-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(26px, 1fr));
+        gap: 6px;
+        margin-top: 12px;
+    }
+
+    .heat-cell {
+        height: 26px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        color: #333;
+        cursor: pointer;
+        border: 1px solid #eee;
+    }
+
+    .heat-level-0 { background: #f3f3f3; }
+    .heat-level-1 { background: #dcecff; }
+    .heat-level-2 { background: #b9d7fb; }
+    .heat-level-3 { background: #8fc0f2; }
+    .heat-level-4 { background: #63a7e6; color: white; }
+
+    .top-link-box {
+        margin-bottom: 20px;
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .top-link-box a {
+        background: #417690;
+        color: white !important;
+        padding: 10px 14px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+    @media (max-width: 900px) {
+        .dashboard-grid {
+        grid-template-columns: repeat(2, 1fr);
+        }
+
+        .charts-grid {
+        grid-template-columns: 1fr;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1>Аналітика</h1>
+
+    <div class="toolbar-row">
+    <div class="top-link-box" style="margin-bottom:0;">
+        <a href="/admin/animals/animal/">Песики</a>
+        <a href="/admin/walks/walk/">Прогулянки</a>
+        <a href="/admin/reviews/behaviorreview/">Відгуки</a>
+    </div>
+
+    <div class="period-filters">
+        <a href="?period=week" class="{% if period == 'week' %}active{% endif %}">Тиждень</a>
+        <a href="?period=month" class="{% if period == 'month' %}active{% endif %}">Місяць</a>
+    </div>
+    </div>
+
+    <div class="dashboard-grid">
+    <div class="stat-card">
+        <div class="stat-title">Прогулянки</div>
+        <div class="stat-value">{{ total_walks }}</div>
+        <div class="stat-change">+{{ weekly_walks }} за період</div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-title">Волонтери</div>
+        <div class="stat-value">{{ total_volunteers }}</div>
+        <div class="stat-change">+{{ weekly_volunteers }}</div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-title">Тварини</div>
+        <div class="stat-value">{{ total_animals }}</div>
+        <div class="stat-change">+{{ weekly_animals }}</div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-title">Відгуки</div>
+        <div class="stat-value">{{ total_reviews }}</div>
+        <div class="stat-change">+{{ weekly_reviews }}</div>
+    </div>
+    </div>
+
+    <div class="charts-grid">
+    <div class="chart-card">
+        <div class="chart-title">Прогулянки за часом</div>
+        <div class="chart-subtitle">Клік по колонці відкриє прогулянки в цей часовий слот</div>
+        <canvas id="walksByTime"></canvas>
+    </div>
+
+    <div class="chart-card">
+        <div class="chart-title">Дні тижня</div>
+        <div class="chart-subtitle">Клік по точці відкриє прогулянки за цей день тижня</div>
+        <canvas id="walksByWeekday"></canvas>
+    </div>
+
+    <div class="chart-card">
+        <div class="chart-title">Популярні песики</div>
+        <div class="chart-subtitle">Клік по колонці відкриє прогулянки конкретного песика</div>
+        <canvas id="topAnimals"></canvas>
+    </div>
+
+    <div class="chart-card">
+        <div class="chart-title">Середній рейтинг</div>
+        <div class="chart-subtitle">Клік по колонці відкриє відгуки по песику</div>
+        <canvas id="avgScores"></canvas>
+    </div>
+    </div>
+
+    <div class="heatmap-card">
+    <div class="chart-title">Heatmap активності</div>
+    <div class="chart-subtitle">Клік по дню відкриє прогулянки на цю дату</div>
+    <div class="heatmap-grid" id="heatmapGrid"></div>
+    </div>
+
+{{ hour_labels|json_script:"hour-labels" }}
+{{ hour_values|json_script:"hour-values" }}
+{{ weekday_labels|json_script:"weekday-labels" }}
+{{ weekday_values|json_script:"weekday-values" }}
+{{ top_animals_labels|json_script:"top-animals-labels" }}
+{{ top_animals_values|json_script:"top-animals-values" }}
+{{ avg_scores_labels|json_script:"avg-scores-labels" }}
+{{ avg_scores_values|json_script:"avg-scores-values" }}
+{{ heatmap|json_script:"heatmap-data" }}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const period = "{{ period }}";
+
+    const hourLabels = JSON.parse(document.getElementById('hour-labels').textContent);
+    const hourValues = JSON.parse(document.getElementById('hour-values').textContent);
+
+    const weekdayLabels = JSON.parse(document.getElementById('weekday-labels').textContent);
+    const weekdayValues = JSON.parse(document.getElementById('weekday-values').textContent);
+
+    const topAnimalsLabels = JSON.parse(document.getElementById('top-animals-labels').textContent);
+    const topAnimalsValues = JSON.parse(document.getElementById('top-animals-values').textContent);
+
+    const avgScoresLabels = JSON.parse(document.getElementById('avg-scores-labels').textContent);
+    const avgScoresValues = JSON.parse(document.getElementById('avg-scores-values').textContent);
+
+    const heatmapData = JSON.parse(document.getElementById('heatmap-data').textContent);
+
+    function openWalksByQuery(query) {
+    window.location.href = `/admin/walks/walk/?${query}`;
+    }
+
+    function openReviewsByAnimal(animalName) {
+    window.location.href = `/admin/reviews/behaviorreview/?animal__name__icontains=${encodeURIComponent(animalName)}`;
+    }
+
+    function createBarChart(ctx, labels, data, color, onClickHandler) {
+    return new Chart(ctx, {
+        type: 'bar',
+        data: {
+        labels: labels,
+        datasets: [{
+            data: data,
+            backgroundColor: color,
+            borderRadius: 6,
+            barThickness: 18
+        }]
+        },
+        options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+            x: { ticks: { font: { size: 10 } } },
+            y: { ticks: { font: { size: 10 } } }
+        },
+        onClick: (event, elements) => {
+            if (elements.length && onClickHandler) {
+            const index = elements[0].index;
+            onClickHandler(index, labels[index], data[index]);
+            }
+        }
+        }
+    });
+    }
+
+    function createLineChart(ctx, labels, data, onClickHandler) {
+    return new Chart(ctx, {
+        type: 'line',
+        data: {
+        labels: labels,
+        datasets: [{
+            data: data,
+            borderColor: '#7E86E8',
+            backgroundColor: 'rgba(126,134,232,0.15)',
+            fill: true,
+            tension: 0.4,
+            borderWidth: 2,
+            pointRadius: 3
+        }]
+        },
+        options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        onClick: (event, elements) => {
+            if (elements.length && onClickHandler) {
+            const index = elements[0].index;
+            onClickHandler(index, labels[index], data[index]);
+            }
+        }
+        }
+    });
+    }
+
+    function buildHourRangeQuery(label) {
+    const hour = parseInt(label.split(':')[0], 10);
+    if (hour === 8) {
+        return 'planned_start_time__hour__lt=9';
+    }
+    return `planned_start_time__hour=${hour}`;
+    }
+
+    function buildWeekdayQuery(index) {
+    return `planned_date__week_day=${index + 2}`;
+    }
+
+    createBarChart(
+    document.getElementById('walksByTime'),
+    hourLabels,
+    hourValues,
+    '#7E86E8',
+    (index, label) => {
+        openWalksByQuery(buildHourRangeQuery(label));
+    }
+    );
+
+    createLineChart(
+    document.getElementById('walksByWeekday'),
+    weekdayLabels,
+    weekdayValues,
+    (index) => {
+        openWalksByQuery(buildWeekdayQuery(index));
+    }
+    );
+
+    createBarChart(
+    document.getElementById('topAnimals'),
+    topAnimalsLabels,
+    topAnimalsValues,
+    '#6FA8DC',
+    (index, label) => {
+        openWalksByQuery(`animal__name__icontains=${encodeURIComponent(label)}`);
+    }
+    );
+
+    createBarChart(
+    document.getElementById('avgScores'),
+    avgScoresLabels,
+    avgScoresValues,
+    '#8BC48A',
+    (index, label) => {
+        openReviewsByAnimal(label);
+    }
+    );
+
+    function getHeatLevel(count) {
+    if (count <= 0) return 0;
+    if (count === 1) return 1;
+    if (count <= 3) return 2;
+    if (count <= 5) return 3;
+    return 4;
+    }
+
+    const heatmapGrid = document.getElementById('heatmapGrid');
+    heatmapData.forEach(item => {
+    const cell = document.createElement('div');
+    cell.className = `heat-cell heat-level-${getHeatLevel(item.count)}`;
+    cell.title = `${item.label}: ${item.count} прогулянок`;
+    cell.textContent = item.count > 0 ? item.count : '';
+    cell.onclick = () => {
+        openWalksByQuery(`planned_date=${item.date}`);
+    };
+    heatmapGrid.appendChild(cell);
+    });
+</script>
+
+{% endblock %}
