@@ -1,1379 +1,15 @@
 [
 {
-  "model": "admin.logentry",
-  "pk": 1,
-  "fields": {
-    "action_time": "2026-04-28T13:25:43.438Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "РўСЏРіРЅРµ РїРѕРІС–РґРµС†СЊ",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 2,
-  "fields": {
-    "action_time": "2026-04-28T13:34:29.929Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "РўСЏРіРЅРµ РїРѕРІС–РґРµС†СЊ",
-    "action_flag": 2,
-    "change_message": "[]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 3,
-  "fields": {
-    "action_time": "2026-04-28T13:34:45.557Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "РЈР»СЏРЅР° РўСЂР°С‡СѓРє",
-    "action_flag": 2,
-    "change_message": "[{\"added\": {\"name\": \"Volunteer preference\", \"object\": \"\\u0423\\u043b\\u044f\\u043d\\u0430 \\u0422\\u0440\\u0430\\u0447\\u0443\\u043a - \\u0422\\u044f\\u0433\\u043d\\u0435 \\u043f\\u043e\\u0432\\u0456\\u0434\\u0435\\u0446\\u044c\"}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 4,
-  "fields": {
-    "action_time": "2026-04-28T13:35:12.499Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "РЈР»СЏРЅР° РўСЂР°С‡СѓРє",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"name\": \"Volunteer preference\", \"object\": \"\\u0423\\u043b\\u044f\\u043d\\u0430 \\u0422\\u0440\\u0430\\u0447\\u0443\\u043a - \\u0422\\u044f\\u0433\\u043d\\u0435 \\u043f\\u043e\\u0432\\u0456\\u0434\\u0435\\u0446\\u044c\", \"fields\": [\"Is enabled\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 5,
-  "fields": {
-    "action_time": "2026-04-29T11:21:46.220Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "2",
-    "object_repr": "Р“С–РїРµСЂР°РєС‚РёРІРЅРёР№",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 6,
-  "fields": {
-    "action_time": "2026-04-29T11:23:18.125Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "3",
-    "object_repr": "Р”СЂР°С‚С–РІР»РёРІРёР№",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 7,
-  "fields": {
-    "action_time": "2026-04-29T11:24:21.299Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "2",
-    "object_repr": "РЈР»СЏРЅР° РўСЂР°С‡СѓРє - Р“С–РїРµСЂР°РєС‚РёРІРЅРёР№",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2026-04-29T11:24:32.954Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "3",
-    "object_repr": "РЈР»СЏРЅР° РўСЂР°С‡СѓРє - Р”СЂР°С‚С–РІР»РёРІРёР№",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 9,
-  "fields": {
-    "action_time": "2026-04-29T11:27:31.207Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "РўР°СЂР°СЃ Р СѓРґРёРє",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Phone\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2026-04-29T11:30:08.257Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "4",
-    "object_repr": "РўР°СЂР°СЃ Р СѓРґРёРє - РўСЏРіРЅРµ РїРѕРІС–РґРµС†СЊ",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2026-04-29T11:30:14.785Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "5",
-    "object_repr": "РўР°СЂР°СЃ Р СѓРґРёРє - Р“С–РїРµСЂР°РєС‚РёРІРЅРёР№",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2026-04-29T11:30:20.614Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "6",
-    "object_repr": "РўР°СЂР°СЃ Р СѓРґРёРє - Р”СЂР°С‚С–РІР»РёРІРёР№",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2026-04-29T11:31:53.138Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "6",
-    "object_repr": "РўР°СЂР°СЃ Р СѓРґРёРє - Р”СЂР°С‚С–РІР»РёРІРёР№",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 14,
-  "fields": {
-    "action_time": "2026-04-29T11:31:53.138Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "5",
-    "object_repr": "РўР°СЂР°СЃ Р СѓРґРёРє - Р“С–РїРµСЂР°РєС‚РёРІРЅРёР№",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 15,
-  "fields": {
-    "action_time": "2026-04-29T11:31:53.138Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "4",
-    "object_repr": "РўР°СЂР°СЃ Р СѓРґРёРє - РўСЏРіРЅРµ РїРѕРІС–РґРµС†СЊ",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 16,
-  "fields": {
-    "action_time": "2026-04-29T11:39:09.049Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "3",
-    "object_repr": "РЈР»СЏРЅР° РўСЂР°С‡СѓРє - Р”СЂР°С‚С–РІР»РёРІРёР№",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 17,
-  "fields": {
-    "action_time": "2026-04-29T11:39:09.049Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "2",
-    "object_repr": "РЈР»СЏРЅР° РўСЂР°С‡СѓРє - Р“С–РїРµСЂР°РєС‚РёРІРЅРёР№",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 18,
-  "fields": {
-    "action_time": "2026-04-29T11:39:09.049Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "1",
-    "object_repr": "РЈР»СЏРЅР° РўСЂР°С‡СѓРє - РўСЏРіРЅРµ РїРѕРІС–РґРµС†СЊ",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 19,
-  "fields": {
-    "action_time": "2026-04-29T11:45:07.157Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "1",
-    "object_repr": "РђСЂС‡С–",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 20,
-  "fields": {
-    "action_time": "2026-04-29T11:45:31.156Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "2",
-    "object_repr": "Р РѕР»СЊС„",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 21,
-  "fields": {
-    "action_time": "2026-04-29T11:45:57.307Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "3",
-    "object_repr": "Р‘Р°СЂСЃС–Рє",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 22,
-  "fields": {
-    "action_time": "2026-04-29T11:46:25.975Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "4",
-    "object_repr": "Р‘С–Р»РєР°",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 23,
-  "fields": {
-    "action_time": "2026-04-29T12:26:42.043Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "1",
-    "object_repr": "РђРєС‚РёРІРЅР°",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 24,
-  "fields": {
-    "action_time": "2026-04-29T12:26:50.534Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "2",
-    "object_repr": "РџС–РґС…РѕРґРёС‚СЊ РґР»СЏ РЅРѕРІР°С‡РєС–РІ",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 25,
-  "fields": {
-    "action_time": "2026-04-29T12:26:56.561Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "3",
-    "object_repr": "РџРѕС‚СЂРµР±СѓС” РґРѕСЃРІС–РґС‡РµРЅРѕРіРѕ РІРѕР»РѕРЅС‚РµСЂР°",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 26,
-  "fields": {
-    "action_time": "2026-04-29T12:27:07.360Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "4",
-    "object_repr": "Р›РµРіРєРѕ Р№РґРµ РЅР° РєРѕРЅС‚Р°РєС‚",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 27,
-  "fields": {
-    "action_time": "2026-04-29T12:27:13.684Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "5",
-    "object_repr": "Р›СЋР±РёС‚СЊ Р±С–РіР°С‚Рё",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 28,
-  "fields": {
-    "action_time": "2026-04-29T12:27:20.860Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "6",
-    "object_repr": "Р”СЂСѓР¶РµР»СЋР±РЅР° РґРѕ Р»СЋРґРµР№",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 29,
-  "fields": {
-    "action_time": "2026-04-29T12:27:29.485Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "7",
-    "object_repr": "Р”СЂСѓР¶РµР»СЋР±РЅР° РґРѕ С–РЅС€РёС… С‚РІР°СЂРёРЅ",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 30,
-  "fields": {
-    "action_time": "2026-04-29T12:27:43.264Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "8",
-    "object_repr": "Р”СЂР°С‚С–РІР»РёРІРёР№ РґРѕ РіСѓС‡РЅРёС… Р·РІСѓРєС–РІ",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 31,
-  "fields": {
-    "action_time": "2026-04-29T12:27:56.443Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "9",
-    "object_repr": "РўР°РєС‚РёР»СЊРЅР°",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 32,
-  "fields": {
-    "action_time": "2026-04-29T12:28:04.102Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "10",
-    "object_repr": "Р‘РѕС—С‚СЊСЃСЏ СЂС–Р·РєРёС… СЂСѓС…С–РІ",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 33,
-  "fields": {
-    "action_time": "2026-04-29T12:28:09.931Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "11",
-    "object_repr": "Р‘РѕС—С‚СЊСЃСЏ РіСѓС‡РЅРёС… Р·РІСѓРєС–РІ",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 34,
-  "fields": {
-    "action_time": "2026-04-29T12:28:17.128Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "8",
-    "object_repr": "Р”СЂР°С‚С–РІР»РёРІРёР№ РґРѕ РіСѓС‡РЅРёС… Р·РІСѓРєС–РІ",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 35,
-  "fields": {
-    "action_time": "2026-04-29T12:28:33.096Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "3",
-    "object_repr": "Р”СЂР°С‚С–РІР»РёРІРёР№",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 36,
-  "fields": {
-    "action_time": "2026-04-29T12:28:42.345Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "4",
-    "object_repr": "Р”СЂР°С‚С–РІР»РёРІРёР№ РґРѕ РіСѓС‡РЅРёС… Р·РІСѓРєС–РІ",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 37,
-  "fields": {
-    "action_time": "2026-04-29T19:57:37.351Z",
-    "user": 1,
-    "content_type": 16,
-    "object_id": "1",
-    "object_repr": "РђСЂС‡С– - РЈР»СЏРЅР° РўСЂР°С‡СѓРє",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 38,
-  "fields": {
-    "action_time": "2026-04-29T20:00:06.007Z",
-    "user": 1,
-    "content_type": 16,
-    "object_id": "1",
-    "object_repr": "РђСЂС‡С– - РЈР»СЏРЅР° РўСЂР°С‡СѓРє",
-    "action_flag": 2,
-    "change_message": "[]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 39,
-  "fields": {
-    "action_time": "2026-04-29T20:01:52.477Z",
-    "user": 1,
-    "content_type": 17,
-    "object_id": "1",
-    "object_repr": "РђСЂС‡С– - С‚РµСЃС‚",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 40,
-  "fields": {
-    "action_time": "2026-04-29T20:03:48.111Z",
-    "user": 1,
-    "content_type": 17,
-    "object_id": "1",
-    "object_repr": "РђСЂС‡С– - С‚РµСЃС‚",
-    "action_flag": 2,
-    "change_message": "[]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 41,
-  "fields": {
-    "action_time": "2026-04-29T20:05:48.218Z",
-    "user": 1,
-    "content_type": 17,
-    "object_id": "1",
-    "object_repr": "РђСЂС‡С– - С‚РµСЃС‚",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Is approved\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 42,
-  "fields": {
-    "action_time": "2026-04-29T20:09:07.173Z",
-    "user": 1,
-    "content_type": 18,
-    "object_id": "1",
-    "object_repr": "РђСЂС‡С– - С‚РµСЃС‚",
-    "action_flag": 2,
-    "change_message": "[]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 43,
-  "fields": {
-    "action_time": "2026-04-29T21:47:43.152Z",
-    "user": 1,
-    "content_type": 16,
-    "object_id": "1",
-    "object_repr": "РђСЂС‡С– - РЈР»СЏРЅР° РўСЂР°С‡СѓРє",
-    "action_flag": 2,
-    "change_message": "[]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 44,
-  "fields": {
-    "action_time": "2026-04-29T21:57:41.309Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "3",
-    "object_repr": "РђСЂС‡С– - РЈР»СЏРЅР° РўСЂР°С‡СѓРє - completed",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 45,
-  "fields": {
-    "action_time": "2026-04-30T17:33:53.678Z",
-    "user": 1,
-    "content_type": 17,
-    "object_id": "1",
-    "object_repr": "РђСЂС‡С– - С‚РµСЃС‚",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 46,
-  "fields": {
-    "action_time": "2026-04-30T18:47:52.267Z",
-    "user": 1,
-    "content_type": 17,
-    "object_id": "2",
-    "object_repr": "РђСЂС‡С– - РЎС‚СЂР°С… РїРµСЂРµРґ РґС–С‚СЊРјРё",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Suggested trait name\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 47,
-  "fields": {
-    "action_time": "2026-04-30T18:48:13.546Z",
-    "user": 1,
-    "content_type": 18,
-    "object_id": "2",
-    "object_repr": "РђСЂС‡С– - РЎС‚СЂР°С… РїРµСЂРµРґ РґС–С‚СЊРјРё",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 48,
-  "fields": {
-    "action_time": "2026-04-30T18:49:04.591Z",
-    "user": 1,
-    "content_type": 18,
-    "object_id": "2",
-    "object_repr": "РђСЂС‡С– - РЎС‚СЂР°С… РїРµСЂРµРґ РґС–С‚СЊРјРё",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 49,
-  "fields": {
-    "action_time": "2026-04-30T18:49:04.591Z",
-    "user": 1,
-    "content_type": 18,
-    "object_id": "1",
-    "object_repr": "РђСЂС‡С– - С‚РµСЃС‚",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 50,
-  "fields": {
-    "action_time": "2026-04-30T18:50:14.821Z",
-    "user": 1,
-    "content_type": 17,
-    "object_id": "3",
-    "object_repr": "РђСЂС‡С– - Р‘РѕСЏР·РЅСЊ РґС–С‚РµР№",
-    "action_flag": 2,
-    "change_message": "[]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 51,
-  "fields": {
-    "action_time": "2026-04-30T18:53:41.207Z",
-    "user": 1,
-    "content_type": 17,
-    "object_id": "2",
-    "object_repr": "РђСЂС‡С– - РЎС‚СЂР°С… РїРµСЂРµРґ РґС–С‚СЊРјРё",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 52,
-  "fields": {
-    "action_time": "2026-04-30T18:56:32.023Z",
-    "user": 1,
-    "content_type": 17,
-    "object_id": "3",
-    "object_repr": "РђСЂС‡С– - Р‘РѕСЏР·РЅСЊ РґС–С‚РµР№",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 53,
-  "fields": {
-    "action_time": "2026-04-30T18:56:37.206Z",
-    "user": 1,
-    "content_type": 18,
-    "object_id": "3",
-    "object_repr": "РђСЂС‡С– - Р‘РѕСЏР·РЅСЊ РґС–С‚РµР№",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 54,
-  "fields": {
-    "action_time": "2026-05-01T17:15:27.827Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "5",
-    "object_repr": "Р”Р¶РµРє",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 55,
-  "fields": {
-    "action_time": "2026-05-02T12:00:48.062Z",
-    "user": 1,
-    "content_type": 20,
-    "object_id": "1",
-    "object_repr": "РЈР»СЏРЅР° РўСЂР°С‡СѓРє - РџРѕРїРµСЂРµРґР¶РµРЅРЅСЏ РїСЂРѕ РїСЂРѕРїСѓС‰РµРЅСѓ РїСЂРѕРіСѓР»СЏРЅРєСѓ",
-    "action_flag": 2,
-    "change_message": "[]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 56,
-  "fields": {
-    "action_time": "2026-05-03T22:43:40.986Z",
-    "user": 1,
-    "content_type": 14,
-    "object_id": "1",
-    "object_repr": "Р§Р°С‚ #1 вЂ” РЈР»СЏРЅР° РўСЂР°С‡СѓРє",
-    "action_flag": 2,
-    "change_message": "[{\"added\": {\"name\": \"chat message\", \"object\": \"\\u0423\\u043b\\u044f\\u043d\\u0430 \\u0422\\u0440\\u0430\\u0447\\u0443\\u043a \\u2014 \\u041f\\u0440\\u0438\\u0432\\u0456\\u0442\"}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 57,
-  "fields": {
-    "action_time": "2026-05-03T22:47:46.440Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "РЈР»СЏРЅР° РўСЂР°С‡СѓРє",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Profile photo\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 58,
-  "fields": {
-    "action_time": "2026-05-04T10:51:23.198Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "14",
-    "object_repr": "РђСЂС‡С– - РЈР»СЏРЅР° РўСЂР°С‡СѓРє - completed",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 59,
-  "fields": {
-    "action_time": "2026-05-04T10:53:28.012Z",
-    "user": 1,
-    "content_type": 20,
-    "object_id": "8",
-    "object_repr": "РЈР»СЏРЅР° РўСЂР°С‡СѓРє - Р РµРєРѕРјРµРЅРґР°С†С–СЏ С‰РѕРґРѕ СѓСЃРёРЅРѕРІР»РµРЅРЅСЏ",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 60,
-  "fields": {
-    "action_time": "2026-05-04T10:53:46.198Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "15",
-    "object_repr": "РђСЂС‡С– - РЈР»СЏРЅР° РўСЂР°С‡СѓРє - completed",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 61,
-  "fields": {
-    "action_time": "2026-05-13T22:20:52.537Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "1",
-    "object_repr": "РђСЂС‡С–",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Short description\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 62,
-  "fields": {
-    "action_time": "2026-05-13T22:59:15.867Z",
-    "user": 1,
-    "content_type": 14,
-    "object_id": "1",
-    "object_repr": "Р§Р°С‚ #1 вЂ” РЈР»СЏРЅР° РўСЂР°С‡СѓРє",
-    "action_flag": 2,
-    "change_message": "[{\"deleted\": {\"name\": \"chat message\", \"object\": \"\\u0423\\u043b\\u044f\\u043d\\u0430 \\u0422\\u0440\\u0430\\u0447\\u0443\\u043a \\u2014 \\u041f\\u0440\\u0438\\u0432\\u0456\\u0442\"}}, {\"deleted\": {\"name\": \"chat message\", \"object\": \"\\u0423\\u043b\\u044f\\u043d\\u0430 \\u0422\\u0440\\u0430\\u0447\\u0443\\u043a \\u2014 \\u041f\\u0440\\u0438\\u0432\\u0456\\u0442\"}}, {\"deleted\": {\"name\": \"chat message\", \"object\": \"\\u0423\\u043b\\u044f\\u043d\\u0430 \\u0422\\u0440\\u0430\\u0447\\u0443\\u043a \\u2014 \\u0430\"}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 63,
-  "fields": {
-    "action_time": "2026-05-13T23:04:07.749Z",
-    "user": 1,
-    "content_type": 14,
-    "object_id": "1",
-    "object_repr": "Р§Р°С‚ #1 вЂ” РЈР»СЏРЅР° РўСЂР°С‡СѓРє",
-    "action_flag": 2,
-    "change_message": "[{\"added\": {\"name\": \"chat message\", \"object\": \"\\u0423\\u043b\\u044f\\u043d\\u0430 \\u0422\\u0440\\u0430\\u0447\\u0443\\u043a \\u2014 \\u0414\\u043e\\u0431\\u0440\\u043e\\u0433\\u043e \\u0432\\u0435\\u0447\\u043e\\u0440\\u0430, \\u043c\\u0438 \\u0432\\u0441\\u0435 \\u0440\\u043e\\u0437\\u0443\\u043c\\u0456\\u0454\"}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 64,
-  "fields": {
-    "action_time": "2026-05-13T23:04:51.577Z",
-    "user": 1,
-    "content_type": 14,
-    "object_id": "1",
-    "object_repr": "Р§Р°С‚ #1 вЂ” РЈР»СЏРЅР° РўСЂР°С‡СѓРє",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"name\": \"chat message\", \"object\": \"\\u0423\\u043b\\u044f\\u043d\\u0430 \\u0422\\u0440\\u0430\\u0447\\u0443\\u043a \\u2014 \\u0414\\u043e\\u0431\\u0440\\u0438\\u0439 \\u0434\\u0435\\u043d\\u044c, \\u043d\\u0430 \\u0437\\u0430\\u0432\\u0442\\u0440\\u0430 \\u0432 \\u043c\\u0435\\u043d\\u0435 \", \"fields\": [\"Text\"]}}, {\"changed\": {\"name\": \"chat message\", \"object\": \"\\u0423\\u043b\\u044f\\u043d\\u0430 \\u0422\\u0440\\u0430\\u0447\\u0443\\u043a \\u2014 \\u0414\\u043e\\u0431\\u0440\\u0438\\u0439 \\u0434\\u0435\\u043d\\u044c, \\u043c\\u0438 \\u0432\\u0441\\u0435 \\u0440\\u043e\\u0437\\u0443\\u043c\\u0456\\u0454\\u043c\\u043e.\", \"fields\": [\"Text\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 65,
-  "fields": {
-    "action_time": "2026-05-14T11:45:42.966Z",
-    "user": 1,
-    "content_type": 14,
-    "object_id": "1",
-    "object_repr": "Р§Р°С‚ #1 вЂ” РЈР»СЏРЅР° РўСЂР°С‡СѓРє",
-    "action_flag": 2,
-    "change_message": "[{\"added\": {\"name\": \"chat message\", \"object\": \"\\u0423\\u043b\\u044f\\u043d\\u0430 \\u0422\\u0440\\u0430\\u0447\\u0443\\u043a \\u2014 fgtvbybn\"}}]"
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$YASeloDKIel57LfpikUPhT$u3m1eHJJxcpW91WTc2a2Okq+oo+tJ8pzmdKEHNEw27U=",
-    "last_login": "2026-05-13T22:16:54.920Z",
-    "is_superuser": true,
-    "username": "admin",
-    "first_name": "",
-    "last_name": "",
-    "email": "uliana.trachuk.pp.2022@lpnu.ua",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2026-04-28T13:20:16.211Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 2,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$cG592Rvj4TcxgIuUYpZIFT$0OkAJs8scA8t25LAMmqZB/nLmZydL0MH1RcSwFlnpgs=",
-    "last_login": "2026-05-20T18:13:57.116Z",
-    "is_superuser": false,
-    "username": "ulianatrachuk@gmail.com",
-    "first_name": "РЈР»СЏРЅР°",
-    "last_name": "РўСЂР°С‡СѓРє",
-    "email": "ulianatrachuk@gmail.com",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-04-28T13:33:24.303Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 3,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$nncp1i7ktkCtmUCrGz6tG9$csmlsuqG+DkoQCXD4JNt5Z+rXDs+D5v3aEcafvpVxKY=",
-    "last_login": "2026-05-14T11:58:09.527Z",
-    "is_superuser": false,
-    "username": "tarasrrr@gmail.com",
-    "first_name": "РўР°СЂР°СЃ",
-    "last_name": "Р СѓРґРёРє",
-    "email": "tarasrrr@gmail.com",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-04-29T11:26:58.564Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 4,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$2hj1m86QKB08DP0OF849ip$7TxUO8Wqj/3QJ7acKVPWuFmV5GeYTLDxUAJ8Ez1rb8E=",
-    "last_login": "2026-05-04T00:29:56.133Z",
-    "is_superuser": false,
-    "username": "olenasloboda@gmail.com",
-    "first_name": "РћР»РµРЅР°",
-    "last_name": "РЎР»РѕР±РѕРґР°",
-    "email": "olenasloboda@gmail.com",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-05-03T20:37:50.046Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 5,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$yYQTMXEOlDAEHlqV3ADpx1$V8+aMU8LDqkj16Ezl/dQ6tFZsJXhKdfzdksT6FsV/9Y=",
-    "last_login": "2026-05-13T22:15:04.008Z",
-    "is_superuser": false,
-    "username": "marynam@gmail.com",
-    "first_name": "РњР°СЂРёРЅР°",
-    "last_name": "РњРёРґР»РёРє",
-    "email": "marynam@gmail.com",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-05-13T22:14:42.071Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "0kfgg5t8lu6slzufk8urrqnebvtf6wtn",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wKQvc:svxdyuoFJyEYBaxUCOqyVVq3pH1cVfIjaF357utImTA",
-    "expire_date": "2026-05-20T01:19:56.009Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "0n9jcv146kyuqo5ubf5y87gaqv238mfx",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wKR0L:xC-_OKqqSw18NSugAeuduH-2b1aIluGPdusFAoY-i18",
-    "expire_date": "2026-05-20T01:24:49.600Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "2vy3zdi43bwv8e34lsqajhw4ct4c3igv",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wKhKA:3B1X8aSDlamNdOKLAkLNr3KTnrsHvltyqT79BtM3_7I",
-    "expire_date": "2026-05-20T18:50:22.588Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "3ojdrwg65wjk2za0pm2obaihcikihuqj",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wI4nX:Z9Q7ub4b5V8bUqKZhDg328Ru4DOhi0CsVFk3e03AJ4I",
-    "expire_date": "2026-05-13T13:17:51.228Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "4ksjpdudnnu8jd36cae5pb264ctn2urt",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wI2m0:8vQOGaH-t_tKn-MKfau-Z7Q_xq8qBupKI5rTQdsY2Dw",
-    "expire_date": "2026-05-13T11:08:08.987Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "4u5ks743uw1i8vhwmxdq46xx2pjqqt7i",
-  "fields": {
-    "session_data": ".eJxVjMsOgjAUBf-la9O0WLjVpXu-obkvBDU0obAy_rslYaHbmTnnbRJu65i2okuaxFyNN6dfRshPnXchD5zv2XKe12Uiuyf2sMX2WfR1O9q_gxHLWNcsoJ7F-RjbJnTaedDgAjJhaJ0InV1bMVAH4RIIKhjYNQNEBFZw5vMF5BE3-w:1wNHss:fOmtlAuwd4mccjRIhamf88bfDyd9im6gYgxL5IQJNsc",
-    "expire_date": "2026-05-27T22:16:54.933Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "5o0vl8kheztp5xbmyindp6jmb3ov3122",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wJ8SB:Kfsnb661WHSprwH-j_6hrhUEKDTh6NdIIXqqjP8y8Ko",
-    "expire_date": "2026-05-16T11:24:11.182Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "7eqri2en1lx5v2nzpnp0otbgwzwkg4ht",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wNI1t:aHbWWKp2G4P2-_AMTtnMLdW_8RfmgLE11guKEKoPhIc",
-    "expire_date": "2026-05-27T22:26:13.200Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "8brx0o9yg37lq9t5rn6hmsoc63bcskn6",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wJfEg:Dxb9Dk7ezqMQUePHGgG9QTRH-z2o0c9MuXYq2NnerYc",
-    "expire_date": "2026-05-17T22:24:26.443Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "8qsi7z552erxnus6pva85oi3h4idjgw9",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hBKGQGX7j0DGRhGqgaS0q6Md7dNutDtf-_9twi4LiWsPc9hInERRpx-t4jpmesO6IH13mRqdZmnKHdFHrTLW6P8uh7u30HBXrZaATtW6GzSoMirEWggjpppdBmNsx4404YQozYpKQAXQQ2RtT9bz-LzBfBZODg:1wJdZm:_JwXXRdC0BmgjRNjBwXid1RAnFJlmJbjrtJmf1ZC8R8",
-    "expire_date": "2026-05-17T20:38:06.002Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "9hsskzndvuep9ipmy9gwitnlg52ppf56",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hBKGQGX7j0DGRhGqgaS0q6Md7dNutDtf-_9twi4LiWsPc9hInERRpx-t4jpmesO6IH13mRqdZmnKHdFHrTLW6P8uh7u30HBXrZaATtW6GzSoMirEWggjpppdBmNsx4404YQozYpKQAXQQ2RtT9bz-LzBfBZODg:1wJfna:Nw0bx-gIYe2BEh15OalZrA4vMUqA15R6U-B_HK_VTgE",
-    "expire_date": "2026-05-17T23:00:30.768Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "b99zlcc1hb9d90axc2at8e6m5pk704wz",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wJdCp:naLlsP8Zpcfxd2uogQD1yEBnoGsRe6y2jpIB-76cxsM",
-    "expire_date": "2026-05-17T20:14:23.810Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "bi76v4lfv797idhuf0it7jwvrbpyt8lj",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wJe00:Oq1AbHxE263_FPahCNQFlZN3-r_6efjJS2hNmsHbnoM",
-    "expire_date": "2026-05-17T21:05:12.603Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "chgvoynnpa8f84a37dnajrdfwz6nwddm",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wKavR:9cHBnLaT-MDnBLxiqwD8x_FzQLgPmAuuoQRZOoinhiA",
-    "expire_date": "2026-05-20T12:00:25.792Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "dm095jgodwhgdrzvqzqj237i8plvmq0a",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wNIri:9fc1YTPj-D5SH0fb8hrkddiMBEP0T6fQuEzETeRaJao",
-    "expire_date": "2026-05-27T23:19:46.554Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "dr89picg4nwf73a3j55qwt3c7qfmtp11",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hBKGQGX7j0DGRhGqgaS0q6Md7dNutDtf-_9twi4LiWsPc9hInERRpx-t4jpmesO6IH13mRqdZmnKHdFHrTLW6P8uh7u30HBXrZaATtW6GzSoMirEWggjpppdBmNsx4404YQozYpKQAXQQ2RtT9bz-LzBfBZODg:1wJfDE:EkbGrsLlQdWKNgQ9ump5_MOqdISbEEaxeqMstZeXV34",
-    "expire_date": "2026-05-17T22:22:56.718Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "el0lr9dui7ugn4u0j3vpum0fql6mrslg",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wHiZM:CNTIBW2y6rErQoxdI_Z_hC91eY5BZ-LWIC3XGfmezzs",
-    "expire_date": "2026-05-12T13:33:44.270Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "et3ynuk1dlc7zhtttr6uxngcif1tks0m",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wI4lW:IbxIUG_6J7qyJbfwBWRDbL3URW6xZMTS_WyyU_cgDI0",
-    "expire_date": "2026-05-13T13:15:46.994Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "fk1wzdh41c1bmmzwvrclhcovtjx6luzs",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wI4MG:v80GBkK2c8L_SVrn1WUR5n3QRHetskuZ7eR5vxTSQeM",
-    "expire_date": "2026-05-13T12:49:40.654Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "fkjatbcmw3q35ldelof0mvh37qc7hau5",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wNUhd:GekKOlmwuPJ-ITthNsToYIWodX-NnjrAHAvTb9e3gPI",
-    "expire_date": "2026-05-28T11:58:09.533Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "gq1q154qq05u3gfv02p3czkv769ihzv3",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wI3JE:c9a47qu-ZKSKWSSHouowiRNd_gJ3vRFwHhnsAm8v-X0",
-    "expire_date": "2026-05-13T11:42:28.655Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "h3h2xrm0wsai01xni3q30d4ndro3i9h6",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wJr2X:RWBplWQUFRhQSuPgD81z7JiABq8HQv8Kjt3NGfjCG9I",
-    "expire_date": "2026-05-18T11:00:41.775Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "h3rcg1ltzc12rhfw2vr2cuylrc6dctb9",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wIBEK:DhcDfxeQruZb_P9_2dUAcsiE_ml81zIcHx8TleHeCcM",
-    "expire_date": "2026-05-13T20:09:56.395Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "j73ho5v3tfefb5ep0kpt3drokj6yn19x",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wJh1F:cpI5-o-XZl-RSQ322hPo5tYvwACgljaCzEmrwr8pAdQ",
-    "expire_date": "2026-05-18T00:18:41.153Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "j9tl7qsej6le08dwiv8unuusvfxq91m3",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wI7dJ:mVuGxZCcp5nv23EaqvUZkgWyj0aSnfAJCIaxCxsnSQY",
-    "expire_date": "2026-05-13T16:19:29.688Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "k5sferm1g5zm9i2jr64hbifa51g5dw0z",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wI4r0:K3xyPb-WYpHvX6v8fT5IBOdapz5-DT03CRs_MAHXfZg",
-    "expire_date": "2026-05-13T13:21:26.931Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "k6tk91nnq56txcbghk5ezo88w27sv3yw",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wJ7cc:mxN8WpU1xmCn6LSw4ELwq8vUtz5eBoctTHAwQypEzNw",
-    "expire_date": "2026-05-16T10:30:54.849Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "m8v3ztlr9ywlsjluvkvbpwkq28f3qjds",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wJhDs:GwrzVxgGpJ22Ka7OVnX9H3K7Egqoc-vHvi8xK7zLFO8",
-    "expire_date": "2026-05-18T00:31:44.521Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "mrja9c8nyc157bztnbpso63muz11rfxk",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wI34z:boGWsf-zH2aoQg9vRlFbNQk16PpD_McmPlm44nMzneg",
-    "expire_date": "2026-05-13T11:27:45.696Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "ooauyny464kjvblq34z27pz3ikke7h82",
-  "fields": {
-    "session_data": ".eJxVjMsOgjAUBf-la9O0WLjVpXu-obkvBDU0obAy_rslYaHbmTnnbRJu65i2okuaxFyNN6dfRshPnXchD5zv2XKe12Uiuyf2sMX2WfR1O9q_gxHLWNcsoJ7F-RjbJnTaedDgAjJhaJ0InV1bMVAH4RIIKhjYNQNEBFZw5vMF5BE3-w:1wHiMn:jaSYnax_QJ66w6fAt8yR7KxmCAYzeK4y8voxrdpi8tI",
-    "expire_date": "2026-05-12T13:20:45.888Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "p19j3i0bdfdwlygphmhpmg3oz71cisa5",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wKbpI:y3XF4zucGwApZ_4JNGtBgAbLDslFtQnStgRiFcYpXwg",
-    "expire_date": "2026-05-20T12:58:08.378Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "pzkwu36zgagkx9yf5903zmud3km142t2",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wI7ZR:Eox9tdT35_D-rwi8Wb11aJfrkpPy2zkkcO0T4lLy2FU",
-    "expire_date": "2026-05-13T16:15:29.085Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "rn5qn7rvl9qtdoxf7s6i5t4ctgxm6lj7",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wI8RS:AGAHb6FyPFFjtkyXUV02e9YugX4bZyNpRPEqIhT3NhQ",
-    "expire_date": "2026-05-13T17:11:18.395Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "rxbub8no5o5glu0taa386fyzlz16jj6t",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wKQv6:o5I32CucdxGgUC962tz-XEi4UJZkITIDdiZUg7kL00U",
-    "expire_date": "2026-05-20T01:19:24.971Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "s6x5plpn7yeruxvezsd0irk74s6c2c57",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wKREw:61MWfTCQVNSYmYbQWeqlfsQXKYrmX9UwtFq9LG5_49U",
-    "expire_date": "2026-05-20T01:39:54.134Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "skxz528vag6s70exxnib9djm9jppdbl0",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wJFRf:NYBB3DB6FU384EFVSk9KFE6qOsWL4ieWI3dTHq_J-kM",
-    "expire_date": "2026-05-16T18:52:07.132Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "smtmzqzysvxnmtlbpal51vq6tw0elj6d",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hBKGQGX7j0DGRhGqgaS0q6Md7dNutDtf-_9twi4LiWsPc9hInERRpx-t4jpmesO6IH13mRqdZmnKHdFHrTLW6P8uh7u30HBXrZaATtW6GzSoMirEWggjpppdBmNsx4404YQozYpKQAXQQ2RtT9bz-LzBfBZODg:1wJhC8:WcuRzLfmhRsofHfNsyonAjcsKa5DKfmxZyPG3kIaVgk",
-    "expire_date": "2026-05-18T00:29:56.138Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "t7sd1u0h309v9jtkw8q1lmdhk6cjjas7",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wNIr1:4qvH9F4dJ9tiPiPuwTUShGGd8HMSQlFB3LtwCfQW1nc",
-    "expire_date": "2026-05-27T23:19:03.047Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "tllt1urf0796gepsbltd28hu5mrymlav",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wJ8yf:irCd9sMICJKs6BczteLglqLY2J7twMzggWoT0HTE0rU",
-    "expire_date": "2026-05-16T11:57:45.565Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "utrkpq64rmgpfwj5319bgebqpr9tlb51",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hCGGVtw6b5nIDCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrcHMVFoDj9bsHzI9UdxLuvtya51XWZg9wVedAupxbT83q4fwfF9_KtaRh1tsTAykYEQmLWYbQ4ABhSoDKGs8dgSGfjrUaDCiKz0axywCTeH7TNNv4:1wJfCh:ncFX-Diaiw82zsZoZJ-lLnnbYxUMdaZ4VlXjcenMyFM",
-    "expire_date": "2026-05-17T22:22:23.734Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "yuuad8lsit5sjz4m9g07fdj9qnfjo79d",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wJZwl:JGLk8j1WRbsNlPVLhwKKYoikwU9yjs4MDderMOe9EsU",
-    "expire_date": "2026-05-17T16:45:35.699Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "zaf87hgw929o4urg24e1h4bhobxd523r",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-JV5T0nMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIsjDj9bgnzg9sO6I7tNss8t3WZktwVedAurzPx83K4fwcVe_3W6EpRmKw1mpJ3yikMGkkNnMElyOCJQI2kitfIo-PBUmAfGIw14EG8P_BzN9c:1wPlQb:Lk8zOqX-1AwKr1X_4oNrfAA4vmy24uic51GTDCpD_74",
-    "expire_date": "2026-06-03T18:13:57.121Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "zy4vrtgb02hoyi7sx93ygezxav97fu5l",
-  "fields": {
-    "session_data": ".eJxVjMsOwiAQRf-FtSEMhYFx6d5vIDylaiAp7cr479qkC93ec859Mee3tbpt5MXNiZ2ZZqffLfj4yG0H6e7brfPY27rMge8KP-jg157y83K4fwfVj_qtUQuUGCZQKaC1BjVEUAW9jMUEsqJMlghszBiBtDCTIpI2ACiBigx7fwCwczYV:1wNHr6:JJsjikuseyCRMCqytr6wgDj2XaVmYNpHVhOOf6KK9bw",
-    "expire_date": "2026-05-27T22:15:04.017Z"
-  }
-},
-{
-  "model": "users.volunteerprofile",
-  "pk": 1,
-  "fields": {
-    "user": 2,
-    "first_name": "РЈР»СЏРЅР°",
-    "last_name": "РўСЂР°С‡СѓРє",
-    "phone": "+380687656612",
-    "birth_date": "2005-07-04",
-    "profile_photo": "",
-    "missed_walks_count": 2,
-    "is_blocked": false,
-    "blocked_at": null,
-    "block_reason": ""
-  }
-},
-{
-  "model": "users.volunteerprofile",
-  "pk": 2,
-  "fields": {
-    "user": 3,
-    "first_name": "РўР°СЂР°СЃ",
-    "last_name": "Р СѓРґРёРє",
-    "phone": "+380633223889",
-    "birth_date": "2005-08-17",
-    "profile_photo": "",
-    "missed_walks_count": 1,
-    "is_blocked": false,
-    "blocked_at": null,
-    "block_reason": ""
-  }
-},
-{
-  "model": "users.volunteerprofile",
-  "pk": 3,
-  "fields": {
-    "user": 4,
-    "first_name": "РћР»РµРЅР°",
-    "last_name": "РЎР»РѕР±РѕРґР°",
-    "phone": "+380682543379",
-    "birth_date": "2005-08-20",
-    "profile_photo": "",
-    "missed_walks_count": 0,
-    "is_blocked": false,
-    "blocked_at": null,
-    "block_reason": ""
-  }
-},
-{
-  "model": "users.volunteerprofile",
-  "pk": 4,
-  "fields": {
-    "user": 5,
-    "first_name": "РњР°СЂРёРЅР°",
-    "last_name": "РњРёРґР»РёРє",
-    "phone": "+380682943375",
-    "birth_date": "2001-02-22",
-    "profile_photo": "",
-    "missed_walks_count": 0,
-    "is_blocked": false,
-    "blocked_at": null,
-    "block_reason": ""
-  }
-},
-{
-  "model": "users.preferencecriterion",
-  "pk": 1,
-  "fields": {
-    "name": "РўСЏРіРЅРµ РїРѕРІС–РґРµС†СЊ"
-  }
-},
-{
-  "model": "users.preferencecriterion",
-  "pk": 2,
-  "fields": {
-    "name": "Р“С–РїРµСЂР°РєС‚РёРІРЅРёР№"
-  }
-},
-{
-  "model": "users.preferencecriterion",
-  "pk": 4,
-  "fields": {
-    "name": "Р”СЂР°С‚С–РІР»РёРІРёР№ РґРѕ РіСѓС‡РЅРёС… Р·РІСѓРєС–РІ"
-  }
-},
-{
   "model": "animals.animal",
   "pk": 1,
   "fields": {
-    "name": "РђСЂС‡С–",
+    "name": "Арчі",
     "breed": "",
     "age": 6,
     "sex": "male",
-    "photo": "animals/photos/Archi_7YrZScF.jpg",
-    "health_status": "Р·РґРѕСЂРѕРІРёР№",
-    "short_description": "РђСЂС‡С– вЂ” РјРѕР»РѕРґРёР№ РїРµСЃРёРє С–Р· РґРѕР±СЂРёРјРё РѕС‡РёРјР° С‚Р° РґСѓР¶Рµ СЃРїРѕРєС–Р№РЅРёРј С…Р°СЂР°РєС‚РµСЂРѕРј. Р™РѕРјСѓ РїСЂРёР±Р»РёР·РЅРѕ 6 СЂРѕРєС–РІ, С– РїРѕРїСЂРё РЅРµРїСЂРѕСЃС‚Рµ РјРёРЅСѓР»Рµ, РІС–РЅ РЅРµ РІС‚СЂР°С‚РёРІ РґРѕРІС–СЂРё РґРѕ Р»СЋРґРµР№. РђСЂС‡С– РїРѕС‚СЂР°РїРёРІ РґРѕ РїСЂРёС‚СѓР»РєСѓ РїС–СЃР»СЏ С‚РѕРіРѕ, СЏРє РєС–Р»СЊРєР° С‚РёР¶РЅС–РІ Р¶РёРІ Р±С–Р»СЏ Р°РІС‚РѕР±СѓСЃРЅРѕС— Р·СѓРїРёРЅРєРё РЅР° РѕРєРѕР»РёС†С– РјС–СЃС‚Р°. Р’РѕР»РѕРЅС‚РµСЂРё РїРѕРјС–С‚РёР»Рё, С‰Рѕ РІС–РЅ С‰РѕРґРЅСЏ РїСЂРёС…РѕРґРёРІ С‚СѓРґРё РІ РѕРґРёРЅ С– С‚РѕР№ СЃР°РјРёР№ С‡Р°СЃ, РЅС–Р±Рё С‡РµРєР°РІ РЅР° РєРѕРіРѕСЃСЊ.\r\n\r\nРЎРїРѕС‡Р°С‚РєСѓ РђСЂС‡С– Р±СѓРІ РЅР°Р»СЏРєР°РЅРёРј С– РјР°Р№Р¶Рµ РЅРµ РїС–РґС…РѕРґРёРІ РґРѕ Р»СЋРґРµР№, Р°Р»Рµ Р· С‡Р°СЃРѕРј РїРѕС‡Р°РІ РІС–РґРєСЂРёРІР°С‚РёСЃСЏ. Р—Р°СЂР°Р· С†Рµ РґСѓР¶Рµ Р»Р°РіС–РґРЅРёР№ С– РІРґСЏС‡РЅРёР№ РїРµСЃ, СЏРєРёР№ РѕР±РѕР¶РЅСЋС” РїСЂРѕРіСѓР»СЏРЅРєРё, СЃРїРѕРєС–Р№РЅРѕ С…РѕРґРёС‚СЊ РЅР° РїРѕРІС–РґРєСѓ С‚Р° Р»СЋР±РёС‚СЊ СЃРёРґС–С‚Рё РїРѕСЂСѓС‡ С–Р· Р»СЋРґРёРЅРѕСЋ. РћСЃРѕР±Р»РёРІРѕ СЂР°РґС–С”, РєРѕР»Рё Р№РѕРіРѕ РіР»Р°РґСЏС‚СЊ Р·Р° РІСѓС€РєРѕРј Р°Р±Рѕ РґР°СЋС‚СЊ СѓР»СЋР±Р»РµРЅС– Р»Р°СЃРѕС‰С–.\r\n\r\nРђСЂС‡С– РґРѕР±СЂРµ Р»Р°РґРЅР°С” Р· С–РЅС€РёРјРё СЃРѕР±Р°РєР°РјРё, РЅРµ РїСЂРѕСЏРІР»СЏС” Р°РіСЂРµСЃС–С— С‚Р° С€РІРёРґРєРѕ Р·РІРёРєР°С” РґРѕ РЅРѕРІРёС… Р»СЋРґРµР№. Р’С–РЅ СЃС‚Р°РЅРµ С‡СѓРґРѕРІРёРј РґСЂСѓРіРѕРј РґР»СЏ С‚РёС…, С…С‚Рѕ С€СѓРєР°С” РІС–СЂРЅРѕРіРѕ Р№ СЃРїРѕРєС–Р№РЅРѕРіРѕ РєРѕРјРїР°РЅСЊР№РѕРЅР°.\r\n\r\nРџРѕРїСЂРё РІСЃРµ РїРµСЂРµР¶РёС‚Рµ, РђСЂС‡С– РґРѕСЃС– РІС–СЂРёС‚СЊ, С‰Рѕ РѕРґРЅРѕРіРѕ РґРЅСЏ Р·РЅР°Р№РґРµ СЃРІС–Р№ СЃРїСЂР°РІР¶РЅС–Р№ РґС–Рј вЂ” РјС–СЃС†Рµ, РґРµ Р№РѕРіРѕ Р±С–Р»СЊС€Рµ РЅС–РєРѕР»Рё РЅРµ Р·Р°Р»РёС€Р°С‚СЊ.",
+    "photo": "media/animals/photos/Archi_xsrtvt",
+    "health_status": "здоровий",
+    "short_description": "Арчі — молодий песик із добрими очима та дуже спокійним характером. Йому приблизно 6 років, і попри непросте минуле, він не втратив довіри до людей. Арчі потрапив до притулку після того, як кілька тижнів жив біля автобусної зупинки на околиці міста. Волонтери помітили, що він щодня приходив туди в один і той самий час, ніби чекав на когось.\r\n\r\nСпочатку Арчі був наляканим і майже не підходив до людей, але з часом почав відкриватися. Зараз це дуже лагідний і вдячний пес, який обожнює прогулянки, спокійно ходить на повідку та любить сидіти поруч із людиною. Особливо радіє, коли його гладять за вушком або дають улюблені ласощі.\r\n\r\nАрчі добре ладнає з іншими собаками, не проявляє агресії та швидко звикає до нових людей. Він стане чудовим другом для тих, хто шукає вірного й спокійного компаньйона.\r\n\r\nПопри все пережите, Арчі досі вірить, що одного дня знайде свій справжній дім — місце, де його більше ніколи не залишать.",
     "favorite_treats": "",
     "is_available": true,
     "qr_code": "",
@@ -1385,12 +21,12 @@
   "model": "animals.animal",
   "pk": 2,
   "fields": {
-    "name": "Р РѕР»СЊС„",
-    "breed": "РќС–РјРµС†СЊРєР° РІС–РІС‡Р°СЂРєР°",
+    "name": "Рольф",
+    "breed": "Німецька вівчарка",
     "age": 8,
     "sex": "male",
-    "photo": "animals/photos/Rolf_6EiocB5.jfif",
-    "health_status": "Р·РґРѕСЂРѕРІРёР№",
+    "photo": "media/animals/photos/Rolf_recrkt",
+    "health_status": "здоровий",
     "short_description": "",
     "favorite_treats": "",
     "is_available": true,
@@ -1403,12 +39,12 @@
   "model": "animals.animal",
   "pk": 3,
   "fields": {
-    "name": "Р‘Р°СЂСЃС–Рє",
+    "name": "Барсік",
     "breed": "",
     "age": 4,
     "sex": "male",
-    "photo": "animals/photos/Barsik_h41TipD.jfif",
-    "health_status": "Р·РґРѕСЂРѕРІРёР№",
+    "photo": "media/animals/photos/Barsik_hqiybl",
+    "health_status": "здоровий",
     "short_description": "",
     "favorite_treats": "",
     "is_available": true,
@@ -1421,12 +57,12 @@
   "model": "animals.animal",
   "pk": 4,
   "fields": {
-    "name": "Р‘С–Р»РєР°",
+    "name": "Білка",
     "breed": "",
     "age": 3,
     "sex": "female",
-    "photo": "animals/photos/Bilka_x9ayDOk.jpg.webp",
-    "health_status": "Р·РґРѕСЂРѕРІР°",
+    "photo": "media/animals/photos/Bilka.jpg_pk3vjm",
+    "health_status": "здорова",
     "short_description": "",
     "favorite_treats": "",
     "is_available": true,
@@ -1439,18 +75,162 @@
   "model": "animals.animal",
   "pk": 5,
   "fields": {
-    "name": "Р”Р¶РµРє",
+    "name": "Джек",
     "breed": "",
     "age": 1,
     "sex": "male",
     "photo": "",
-    "health_status": "Р·РґРѕСЂРѕРІРёР№",
+    "health_status": "здоровий",
     "short_description": "",
     "favorite_treats": "",
     "is_available": true,
     "qr_code": "",
     "ai_summary": "",
     "created_at": "2026-05-01T17:15:27.810Z"
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 6,
+  "fields": {
+    "name": "Грета",
+    "breed": "Вівчарка",
+    "age": 6,
+    "sex": "female",
+    "photo": "media/animals/photos/2_nxxmcd",
+    "health_status": "здорова",
+    "short_description": "Грета жила у приватному будинку, але після переїзду власників залишилась сама. Декілька місяців вона перебувала біля покинутого подвір’я, поки її не помітили волонтери.\r\n\r\nУ притулку Грета поводиться спокійно та стримано. Вона не одразу довіряє незнайомим людям, але з часом звикає та стає дуже слухняною. Добре реагує на команди та спокійно ходить на повідку.\r\n\r\nГрета стане хорошим другом для людей, які цінують спокійних і врівноважених собак.",
+    "favorite_treats": "",
+    "is_available": true,
+    "qr_code": "",
+    "ai_summary": "",
+    "created_at": "2026-05-27T22:26:13.978Z"
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 7,
+  "fields": {
+    "name": "Барні",
+    "breed": "Лабрадор",
+    "age": 4,
+    "sex": "male",
+    "photo": "media/animals/photos/1_yip3hj",
+    "health_status": "здоровий",
+    "short_description": "Барні потрапив до притулку після евакуації з прифронтової території. Деякий час він жив біля дороги та підходив до людей у пошуках їжі. Попри це, пес залишився дуже добрим і спокійним.\r\n\r\nВін швидко звикає до людей, добре поводиться під час прогулянок та любить активність. Найбільше Барні подобається бігати за м’ячем і проводити час поруч із людиною. З іншими собаками конфліктів не проявляє.\r\n\r\nБарні підійде людям, які шукають доброзичливого та активного собаку для прогулянок і щоденного спілкування.",
+    "favorite_treats": "",
+    "is_available": true,
+    "qr_code": "",
+    "ai_summary": "",
+    "created_at": "2026-05-27T22:28:02.207Z"
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 8,
+  "fields": {
+    "name": "Річі",
+    "breed": "",
+    "age": 2,
+    "sex": "male",
+    "photo": "media/animals/photos/3_lafxjk",
+    "health_status": "здоровий",
+    "short_description": "Річі потрапив до притулку ще маленьким цуценям. Його знайшли неподалік залізничної станції разом з іншими покинутими собаками.\r\n\r\nЦе дуже активний та допитливий пес, який любить довгі прогулянки й рухливі ігри. Річі швидко прив’язується до людей, завжди радіє увазі та добре ладнає з іншими собаками.\r\n\r\nВін підійде для активних людей, які готові приділяти час прогулянкам та іграм.",
+    "favorite_treats": "",
+    "is_available": true,
+    "qr_code": "",
+    "ai_summary": "",
+    "created_at": "2026-05-27T22:30:32.200Z"
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 9,
+  "fields": {
+    "name": "Соня",
+    "breed": "Такса",
+    "age": 5,
+    "sex": "female",
+    "photo": "media/animals/photos/4_dtzylf",
+    "health_status": "здорова",
+    "short_description": "Соню знайшли біля автобусної зупинки на околиці міста. Вона декілька днів не відходила від одного місця та насторожено ставилась до людей. Після того як собаку привезли до притулку, вона поступово почала звикати до нового середовища.\r\n\r\nСоня має спокійний і лагідний характер. Вона любить неспішні прогулянки, добре ходить на повідку та швидко прив’язується до людей, які проводять із нею час. Найбільше їй подобається сидіти поруч із людиною та спостерігати за всім навколо.\r\n\r\nЗ іншими собаками Соня поводиться спокійно, конфліктів не проявляє. Вона стане хорошим другом для людей, які шукають тихого та ніжного собаку.",
+    "favorite_treats": "",
+    "is_available": true,
+    "qr_code": "",
+    "ai_summary": "",
+    "created_at": "2026-05-27T22:41:02.168Z"
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 10,
+  "fields": {
+    "name": "Кекс",
+    "breed": "",
+    "age": 3,
+    "sex": "male",
+    "photo": "media/animals/photos/5_ee5ijj",
+    "health_status": "здоровий",
+    "short_description": "Кекс потрапив до притулку після евакуації з прифронтового міста. Волонтери знайшли його біля зруйнованого будинку, де пес кілька днів не відходив від подвір’я та насторожено реагував на незнайомців.\r\n\r\nПерший час Кекс був наляканим і майже не контактував із людьми, але згодом почав звикати до нової обстановки. Зараз це дуже веселий і товариський пес, який любить активні прогулянки та ігри. Він постійно носить у зубах іграшки або палиці й завжди намагається привернути до себе увагу.\r\n\r\nКекс добре ладнає з іншими собаками, швидко звикає до нових людей та любить проводити час поруч із волонтерами. Він стане хорошим другом для активної сім’ї, яка готова приділяти йому багато уваги та турботи.",
+    "favorite_treats": "",
+    "is_available": true,
+    "qr_code": "",
+    "ai_summary": "",
+    "created_at": "2026-05-27T22:44:08.984Z"
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 11,
+  "fields": {
+    "name": "Джесі",
+    "breed": "Метис хаскі",
+    "age": 4,
+    "sex": "female",
+    "photo": "media/animals/photos/6_rttkvx",
+    "health_status": "здорова",
+    "short_description": "Джесі евакуювали із прифронтової території разом з іншими тваринами, яких волонтери вивозили після обстрілів. Деякий час вона жила на вулиці та боялась підходити до людей, через що її вдалося забрати не одразу.\r\n\r\nУ притулку Джесі поступово почала звикати до людей і зараз добре контактує з волонтерами. Вона дуже активна, любить довгі прогулянки та багато руху. Найбільше їй подобається бігати подвір’ям і досліджувати нові місця.\r\n\r\nДжесі добре ладнає з іншими собаками, не проявляє агресії та швидко адаптується до нового середовища. Вона підійде людям, які ведуть активний спосіб життя та готові приділяти багато часу прогулянкам і спілкуванню з собакою.",
+    "favorite_treats": "",
+    "is_available": true,
+    "qr_code": "",
+    "ai_summary": "",
+    "created_at": "2026-05-27T22:47:49.272Z"
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 12,
+  "fields": {
+    "name": "Тім",
+    "breed": "Бігль",
+    "age": 2,
+    "sex": "male",
+    "photo": "media/animals/photos/7_qaqbut",
+    "health_status": "здоровий",
+    "short_description": "Тіма знайшли волонтери неподалік лісосмуги під час евакуації тварин із прифронтового району. Пес був виснажений, наляканий і довгий час не підходив до людей, але залишався поблизу місця, де його помітили вперше.\r\n\r\nПісля переїзду до притулку Тім поступово адаптувався та почав довіряти волонтерам. Це дуже допитливий і енергійний пес, який постійно досліджує все навколо. Під час прогулянок він любить довго принюхуватись до нових запахів і уважно вивчати місцевість.\r\n\r\nТім добре ладнає з людьми та іншими собаками, любить активність і швидко звикає до нових знайомств. Він стане хорошим другом для людей, які люблять довгі прогулянки та активний відпочинок.",
+    "favorite_treats": "",
+    "is_available": true,
+    "qr_code": "",
+    "ai_summary": "",
+    "created_at": "2026-05-27T22:54:46.671Z"
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 13,
+  "fields": {
+    "name": "Лола",
+    "breed": "",
+    "age": 1,
+    "sex": "female",
+    "photo": "media/animals/photos/8_qba4tf",
+    "health_status": "здорова",
+    "short_description": "Лола потрапила до притулку разом зі своїми братами та сестрами ще у ранньому віці. Більшість цуценят уже знайшли домівки, а Лола досі чекає на свою сім’ю.\r\n\r\nВона трохи обережна з незнайомцями, але швидко звикає до людей. Любить спокійні прогулянки, ласку та увагу. Добре поводиться поруч з іншими тваринами.\r\n\r\nЛола буде хорошим варіантом для сім’ї, яка шукає спокійного та лагідного собаку.",
+    "favorite_treats": "",
+    "is_available": true,
+    "qr_code": "",
+    "ai_summary": "",
+    "created_at": "2026-05-27T22:59:13.782Z"
   }
 },
 {
@@ -1466,8 +246,8 @@
     "ended_at": "2026-04-29T12:48:12.988Z",
     "status": "completed",
     "final_activity_score": 4,
-    "unexpected_situations_comment": "РЅС–",
-    "character_match_comment": "С‚Р°Рє",
+    "unexpected_situations_comment": "ні",
+    "character_match_comment": "так",
     "overall_impression": 5,
     "completion_photo": "",
     "reminder_sent": false,
@@ -1488,8 +268,8 @@
     "ended_at": "2026-04-29T17:19:05.104Z",
     "status": "completed",
     "final_activity_score": 4,
-    "unexpected_situations_comment": "РЅС–",
-    "character_match_comment": "С‚Р°Рє",
+    "unexpected_situations_comment": "ні",
+    "character_match_comment": "так",
     "overall_impression": 5,
     "completion_photo": "",
     "reminder_sent": false,
@@ -1554,8 +334,8 @@
     "ended_at": "2026-04-30T20:53:08.232Z",
     "status": "completed",
     "final_activity_score": 3,
-    "unexpected_situations_comment": "РЅС–",
-    "character_match_comment": "С‚Р°",
+    "unexpected_situations_comment": "ні",
+    "character_match_comment": "та",
     "overall_impression": 5,
     "completion_photo": "",
     "reminder_sent": false,
@@ -1576,8 +356,8 @@
     "ended_at": "2026-04-30T20:54:46.207Z",
     "status": "completed",
     "final_activity_score": 3,
-    "unexpected_situations_comment": "РЅС–",
-    "character_match_comment": "С‚Р°Рє",
+    "unexpected_situations_comment": "ні",
+    "character_match_comment": "так",
     "overall_impression": 5,
     "completion_photo": "",
     "reminder_sent": false,
@@ -1620,8 +400,8 @@
     "ended_at": "2026-05-02T16:23:40.621Z",
     "status": "completed",
     "final_activity_score": 4,
-    "unexpected_situations_comment": "РЅС–",
-    "character_match_comment": "С‚Р°Рє",
+    "unexpected_situations_comment": "ні",
+    "character_match_comment": "так",
     "overall_impression": 5,
     "completion_photo": "",
     "reminder_sent": true,
@@ -1708,8 +488,8 @@
     "ended_at": "2026-05-04T00:08:03.100Z",
     "status": "completed",
     "final_activity_score": 5,
-    "unexpected_situations_comment": "РЅС–",
-    "character_match_comment": "С‚Р°Рє",
+    "unexpected_situations_comment": "ні",
+    "character_match_comment": "так",
     "overall_impression": 5,
     "completion_photo": "",
     "reminder_sent": false,
@@ -1752,8 +532,8 @@
     "ended_at": "2026-05-13T23:07:55.580Z",
     "status": "completed",
     "final_activity_score": 5,
-    "unexpected_situations_comment": "РЅС–",
-    "character_match_comment": "С‚Р°Рє",
+    "unexpected_situations_comment": "ні",
+    "character_match_comment": "так",
     "overall_impression": 5,
     "completion_photo": "",
     "reminder_sent": false,
@@ -1774,8 +554,8 @@
     "ended_at": "2026-05-14T11:50:24.040Z",
     "status": "completed",
     "final_activity_score": 5,
-    "unexpected_situations_comment": "РЅС–",
-    "character_match_comment": "С‚Р°Рє Р·РІС–СЃРЅРѕ",
+    "unexpected_situations_comment": "ні",
+    "character_match_comment": "так звісно",
     "overall_impression": 5,
     "completion_photo": "",
     "reminder_sent": false,
@@ -1787,7 +567,7 @@
   "model": "reviews.behaviortrait",
   "pk": 1,
   "fields": {
-    "name": "РђРєС‚РёРІРЅР°",
+    "name": "Активна",
     "description": "",
     "is_active": true
   }
@@ -1796,7 +576,7 @@
   "model": "reviews.behaviortrait",
   "pk": 2,
   "fields": {
-    "name": "РџС–РґС…РѕРґРёС‚СЊ РґР»СЏ РЅРѕРІР°С‡РєС–РІ",
+    "name": "Підходить для новачків",
     "description": "",
     "is_active": true
   }
@@ -1805,7 +585,7 @@
   "model": "reviews.behaviortrait",
   "pk": 3,
   "fields": {
-    "name": "РџРѕС‚СЂРµР±СѓС” РґРѕСЃРІС–РґС‡РµРЅРѕРіРѕ РІРѕР»РѕРЅС‚РµСЂР°",
+    "name": "Потребує досвідченого волонтера",
     "description": "",
     "is_active": true
   }
@@ -1814,7 +594,7 @@
   "model": "reviews.behaviortrait",
   "pk": 4,
   "fields": {
-    "name": "Р›РµРіРєРѕ Р№РґРµ РЅР° РєРѕРЅС‚Р°РєС‚",
+    "name": "Легко йде на контакт",
     "description": "",
     "is_active": true
   }
@@ -1823,7 +603,7 @@
   "model": "reviews.behaviortrait",
   "pk": 5,
   "fields": {
-    "name": "Р›СЋР±РёС‚СЊ Р±С–РіР°С‚Рё",
+    "name": "Любить бігати",
     "description": "",
     "is_active": true
   }
@@ -1832,7 +612,7 @@
   "model": "reviews.behaviortrait",
   "pk": 6,
   "fields": {
-    "name": "Р”СЂСѓР¶РµР»СЋР±РЅР° РґРѕ Р»СЋРґРµР№",
+    "name": "Дружелюбна до людей",
     "description": "",
     "is_active": true
   }
@@ -1841,7 +621,7 @@
   "model": "reviews.behaviortrait",
   "pk": 7,
   "fields": {
-    "name": "Р”СЂСѓР¶РµР»СЋР±РЅР° РґРѕ С–РЅС€РёС… С‚РІР°СЂРёРЅ",
+    "name": "Дружелюбна до інших тварин",
     "description": "",
     "is_active": true
   }
@@ -1850,7 +630,7 @@
   "model": "reviews.behaviortrait",
   "pk": 9,
   "fields": {
-    "name": "РўР°РєС‚РёР»СЊРЅР°",
+    "name": "Тактильна",
     "description": "",
     "is_active": true
   }
@@ -1859,7 +639,7 @@
   "model": "reviews.behaviortrait",
   "pk": 10,
   "fields": {
-    "name": "Р‘РѕС—С‚СЊСЃСЏ СЂС–Р·РєРёС… СЂСѓС…С–РІ",
+    "name": "Боїться різких рухів",
     "description": "",
     "is_active": true
   }
@@ -1868,7 +648,7 @@
   "model": "reviews.behaviortrait",
   "pk": 11,
   "fields": {
-    "name": "Р‘РѕС—С‚СЊСЃСЏ РіСѓС‡РЅРёС… Р·РІСѓРєС–РІ",
+    "name": "Боїться гучних звуків",
     "description": "",
     "is_active": true
   }
@@ -2912,7 +1692,7 @@
     "animal": 1,
     "walk": 1,
     "volunteer": 1,
-    "comment": "РќРµС‚РёРїРѕРІР° СЂРµР°РєС†С–СЏ РЅР° РґС–С‚РµР№",
+    "comment": "Нетипова реакція на дітей",
     "created_at": "2026-04-29T19:57:37.349Z"
   }
 },
@@ -2923,7 +1703,7 @@
     "animal": 1,
     "walk": 4,
     "volunteer": 1,
-    "comment": "Р±РѕС—С‚СЊСЃСЏ РґС–С‚РµР№",
+    "comment": "боїться дітей",
     "created_at": "2026-04-29T21:59:01.077Z"
   }
 },
@@ -2934,7 +1714,7 @@
     "animal": 1,
     "walk": 17,
     "volunteer": 1,
-    "comment": "РїС–Рґ С‡Р°СЃ РїСЂРѕРіСѓР»СЏРЅРєРё Р»СЋР±РёС‚СЊ РЅРѕСЃРёС‚Рё РІ Р·СѓР±Р°С… РїРѕРІС–РґРµС†СЊ",
+    "comment": "під час прогулянки любить носити в зубах повідець",
     "created_at": "2026-05-13T22:43:22.184Z"
   }
 },
@@ -2945,7 +1725,7 @@
     "animal": 4,
     "walk": 18,
     "volunteer": 1,
-    "comment": "Р±С–Р»РєР° РєР»Р°СЃРЅР°",
+    "comment": "білка класна",
     "created_at": "2026-05-14T11:49:13.960Z"
   }
 },
@@ -2954,7 +1734,7 @@
   "pk": 4,
   "fields": {
     "animal": 1,
-    "name": "Р‘РѕСЏР·РЅСЊ РґС–С‚РµР№",
+    "name": "Боязнь дітей",
     "created_at": "2026-04-30T18:57:06.343Z"
   }
 },
@@ -2963,8 +1743,8 @@
   "pk": 4,
   "fields": {
     "animal": 1,
-    "suggested_trait_name": "Р‘РѕСЏР·РЅСЊ РґС–С‚РµР№",
-    "summary": "2 РІРѕР»РѕРЅС‚РµСЂРё Р·Р°Р·РЅР°С‡РёР»Рё, С‰Рѕ РђСЂС‡С– Р±РѕС—С‚СЊСЃСЏ РґС–С‚РµР№ С‚Р° РјР°С” РЅРµС‚РёРїРѕРІСѓ СЂРµР°РєС†С–СЋ РЅР° РЅРёС….",
+    "suggested_trait_name": "Боязнь дітей",
+    "summary": "2 волонтери зазначили, що Арчі боїться дітей та має нетипову реакцію на них.",
     "comments_count": 2,
     "is_approved": true,
     "is_rejected": false,
@@ -2996,202 +1776,196 @@
   }
 },
 {
-  "model": "chat.chatroom",
+  "model": "users.volunteerprofile",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "first_name": "Уляна",
+    "last_name": "Трачук",
+    "phone": "+380687656612",
+    "birth_date": "2005-07-04",
+    "profile_photo": "media/volunteers/photos/IMG_2740_zqzove",
+    "missed_walks_count": 2,
+    "is_blocked": false,
+    "blocked_at": null,
+    "block_reason": ""
+  }
+},
+{
+  "model": "users.volunteerprofile",
+  "pk": 2,
+  "fields": {
+    "user": 3,
+    "first_name": "Тарас",
+    "last_name": "Рудик",
+    "phone": "+380633223889",
+    "birth_date": "2005-08-17",
+    "profile_photo": "",
+    "missed_walks_count": 1,
+    "is_blocked": false,
+    "blocked_at": null,
+    "block_reason": ""
+  }
+},
+{
+  "model": "users.volunteerprofile",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "first_name": "Олена",
+    "last_name": "Слобода",
+    "phone": "+380682543379",
+    "birth_date": "2005-08-20",
+    "profile_photo": "",
+    "missed_walks_count": 0,
+    "is_blocked": false,
+    "blocked_at": null,
+    "block_reason": ""
+  }
+},
+{
+  "model": "users.volunteerprofile",
+  "pk": 4,
+  "fields": {
+    "user": 5,
+    "first_name": "Марина",
+    "last_name": "Мидлик",
+    "phone": "+380682943375",
+    "birth_date": "2001-02-22",
+    "profile_photo": "",
+    "missed_walks_count": 0,
+    "is_blocked": false,
+    "blocked_at": null,
+    "block_reason": ""
+  }
+},
+{
+  "model": "users.preferencecriterion",
+  "pk": 1,
+  "fields": {
+    "name": "Тягне повідець"
+  }
+},
+{
+  "model": "users.preferencecriterion",
+  "pk": 2,
+  "fields": {
+    "name": "Гіперактивний"
+  }
+},
+{
+  "model": "users.preferencecriterion",
+  "pk": 4,
+  "fields": {
+    "name": "Дратівливий до гучних звуків"
+  }
+},
+{
+  "model": "users.volunteerpreference",
   "pk": 1,
   "fields": {
     "volunteer": 1,
-    "created_at": "2026-04-28T13:33:52.244Z"
+    "criterion": 1,
+    "is_enabled": false
   }
 },
 {
-  "model": "chat.chatroom",
+  "model": "users.volunteerpreference",
   "pk": 2,
   "fields": {
     "volunteer": 2,
-    "created_at": "2026-04-29T11:28:00.075Z"
+    "criterion": 1,
+    "is_enabled": false
   }
 },
 {
-  "model": "chat.chatroom",
+  "model": "users.volunteerpreference",
   "pk": 3,
   "fields": {
     "volunteer": 3,
-    "created_at": "2026-05-03T20:38:07.646Z"
+    "criterion": 1,
+    "is_enabled": false
   }
 },
 {
-  "model": "chat.chatmessage",
-  "pk": 1,
-  "fields": {
-    "room": 2,
-    "text": "",
-    "image": "chat/images/scaled_46.jpg",
-    "is_from_admin": false,
-    "created_at": "2026-05-02T21:37:50.598Z"
-  }
-},
-{
-  "model": "chat.chatmessage",
-  "pk": 2,
-  "fields": {
-    "room": 2,
-    "text": "",
-    "image": "chat/images/scaled_45.jpg",
-    "is_from_admin": false,
-    "created_at": "2026-05-02T21:38:15.034Z"
-  }
-},
-{
-  "model": "chat.chatmessage",
-  "pk": 3,
-  "fields": {
-    "room": 2,
-    "text": "",
-    "image": "chat/images/scaled_cf7bddc5-07d1-4355-a446-eaecfd66e3c55348203994898044281.jpg",
-    "is_from_admin": false,
-    "created_at": "2026-05-02T22:01:11.472Z"
-  }
-},
-{
-  "model": "chat.chatmessage",
+  "model": "users.volunteerpreference",
   "pk": 4,
   "fields": {
-    "room": 2,
-    "text": "СЃС‚Р°С‚РёСЃС‚РёРєР°",
-    "image": "chat/images/scaled_45_NneYMyw.jpg",
-    "is_from_admin": false,
-    "created_at": "2026-05-02T22:21:55.143Z"
+    "volunteer": 4,
+    "criterion": 1,
+    "is_enabled": false
   }
 },
 {
-  "model": "chat.chatmessage",
-  "pk": 8,
-  "fields": {
-    "room": 1,
-    "text": "Р”РѕР±СЂРёР№ РґРµРЅСЊ, РЅР° Р·Р°РІС‚СЂР° РІ РјРµРЅРµ Р·Р°РїР»Р°РЅРѕРІР°РЅР° РїСЂРѕРіСѓР»СЏРЅРєР° Р· Р РѕР»СЊС„РѕРј, РїСЂРѕС‚Рµ Р±СѓРґСѓ РІРёРјСѓС€РµРЅР° Р·Р°РїС–Р·РЅРёС‚РёСЃСЊ РЅР° 15 С…РІРёР»РёРЅ",
-    "image": "",
-    "is_from_admin": false,
-    "created_at": "2026-05-13T23:02:08.092Z"
-  }
-},
-{
-  "model": "chat.chatmessage",
-  "pk": 9,
-  "fields": {
-    "room": 1,
-    "text": "Р”РѕР±СЂРёР№ РґРµРЅСЊ, РјРё РІСЃРµ СЂРѕР·СѓРјС–С”РјРѕ. РњРё Р· Р РѕР»СЊС„РѕРј Р·Р°С‡РµРєР°С”РјРѕ",
-    "image": "",
-    "is_from_admin": true,
-    "created_at": "2026-05-13T23:04:07.747Z"
-  }
-},
-{
-  "model": "chat.chatmessage",
-  "pk": 10,
-  "fields": {
-    "room": 1,
-    "text": "РїСЂРёРІС–С‚",
-    "image": "",
-    "is_from_admin": false,
-    "created_at": "2026-05-14T11:45:09.003Z"
-  }
-},
-{
-  "model": "chat.chatmessage",
-  "pk": 11,
-  "fields": {
-    "room": 1,
-    "text": "fgtvbybn",
-    "image": "",
-    "is_from_admin": true,
-    "created_at": "2026-05-14T11:45:42.962Z"
-  }
-},
-{
-  "model": "notifications.notification",
-  "pk": 1,
-  "fields": {
-    "volunteer": 1,
-    "title": "РџРѕРїРµСЂРµРґР¶РµРЅРЅСЏ РїСЂРѕ РїСЂРѕРїСѓС‰РµРЅСѓ РїСЂРѕРіСѓР»СЏРЅРєСѓ",
-    "message": "Р’Рё РїСЂРѕРїСѓСЃС‚РёР»Рё РїСЂРѕРіСѓР»СЏРЅРєСѓ. РЇРєС‰Рѕ С†Рµ Р±СѓРґРµ РїРѕРІС‚РѕСЂСЋРІР°С‚РёСЃСЊ РЅР°РґР°Р»С–, РјРё Р±СѓРґРµРјРѕ РІРёРјСѓС€РµРЅС– Р·Р°Р±Р»РѕРєСѓРІР°С‚Рё Р’Р°С€ РїСЂРѕС„С–Р»СЊ.",
-    "is_read": true,
-    "created_at": "2026-05-02T10:30:54.402Z"
-  }
-},
-{
-  "model": "notifications.notification",
-  "pk": 2,
-  "fields": {
-    "volunteer": 1,
-    "title": "Р—Р°РїР»Р°РЅРѕРІР°РЅР° РїСЂРѕРіСѓР»СЏРЅРєР°",
-    "message": "РЎСЊРѕРіРѕРґРЅС– Сѓ РІР°СЃ РїСЂРѕРіСѓР»СЏРЅРєР° Р· Р‘С–Р»РєР° Рѕ 16:00",
-    "is_read": true,
-    "created_at": "2026-05-02T10:49:12.648Z"
-  }
-},
-{
-  "model": "notifications.notification",
-  "pk": 3,
-  "fields": {
-    "volunteer": 2,
-    "title": "Р—Р°РїР»Р°РЅРѕРІР°РЅР° РїСЂРѕРіСѓР»СЏРЅРєР°",
-    "message": "РЎСЊРѕРіРѕРґРЅС– Сѓ РІР°СЃ РїСЂРѕРіСѓР»СЏРЅРєР° Р· Р”Р¶РµРє Рѕ 15:00",
-    "is_read": true,
-    "created_at": "2026-05-02T11:25:00.038Z"
-  }
-},
-{
-  "model": "notifications.notification",
-  "pk": 4,
-  "fields": {
-    "volunteer": 2,
-    "title": "Р—Р°РїР»Р°РЅРѕРІР°РЅР° РїСЂРѕРіСѓР»СЏРЅРєР°",
-    "message": "РЎСЊРѕРіРѕРґРЅС– Сѓ РІР°СЃ РїСЂРѕРіСѓР»СЏРЅРєР° Р· Р‘Р°СЂСЃС–Рє Рѕ 15:15",
-    "is_read": true,
-    "created_at": "2026-05-02T11:41:36.818Z"
-  }
-},
-{
-  "model": "notifications.notification",
+  "model": "users.volunteerpreference",
   "pk": 5,
   "fields": {
-    "volunteer": 2,
-    "title": "РџРѕРїРµСЂРµРґР¶РµРЅРЅСЏ",
-    "message": "Р’Рё РїСЂРѕРїСѓСЃС‚РёР»Рё РїСЂРѕРіСѓР»СЏРЅРєСѓ. РЇРєС‰Рѕ С†Рµ Р±СѓРґРµ РїРѕРІС‚РѕСЂСЋРІР°С‚РёСЃСЊ РЅР°РґР°Р»С–, РјРё Р±СѓРґРµРјРѕ РІРёРјСѓС€РµРЅС– Р·Р°Р±Р»РѕРєСѓРІР°С‚Рё Р’Р°С€ РїСЂРѕС„С–Р»СЊ.",
-    "is_read": true,
-    "created_at": "2026-05-02T16:23:00.845Z"
+    "volunteer": 1,
+    "criterion": 2,
+    "is_enabled": false
   }
 },
 {
-  "model": "notifications.notification",
+  "model": "users.volunteerpreference",
   "pk": 6,
   "fields": {
-    "volunteer": 1,
-    "title": "Р—Р°РїР»Р°РЅРѕРІР°РЅР° РїСЂРѕРіСѓР»СЏРЅРєР°",
-    "message": "РЎСЊРѕРіРѕРґРЅС– Сѓ РІР°СЃ РїСЂРѕРіСѓР»СЏРЅРєР° Р· Р”Р¶РµРє Рѕ 10:00",
-    "is_read": true,
-    "created_at": "2026-05-03T16:45:07.115Z"
+    "volunteer": 2,
+    "criterion": 2,
+    "is_enabled": false
   }
 },
 {
-  "model": "notifications.notification",
+  "model": "users.volunteerpreference",
   "pk": 7,
   "fields": {
-    "volunteer": 1,
-    "title": "РџРѕРїРµСЂРµРґР¶РµРЅРЅСЏ",
-    "message": "Р’Рё Р·РЅРѕРІСѓ РїСЂРѕРїСѓСЃС‚РёР»Рё РїСЂРѕРіСѓР»СЏРЅРєСѓ. РќР°СЃС‚СѓРїРЅРѕРіРѕ СЂР°Р·Сѓ Р’Р°С€ РїСЂРѕС„С–Р»СЊ Р±СѓРґРµ Р·Р°Р±Р»РѕРєРѕРІР°РЅРѕ Р±РµР· РјРѕР¶Р»РёРІРѕСЃС‚С– СЃС‚РІРѕСЂРёС‚Рё РЅРѕРІРёР№.",
-    "is_read": true,
-    "created_at": "2026-05-03T16:45:07.162Z"
+    "volunteer": 3,
+    "criterion": 2,
+    "is_enabled": false
   }
 },
 {
-  "model": "notifications.adoptionrecommendation",
-  "pk": 1,
+  "model": "users.volunteerpreference",
+  "pk": 8,
+  "fields": {
+    "volunteer": 4,
+    "criterion": 2,
+    "is_enabled": false
+  }
+},
+{
+  "model": "users.volunteerpreference",
+  "pk": 9,
   "fields": {
     "volunteer": 1,
-    "animal": 1,
-    "walks_count": 5,
-    "created_at": "2026-05-04T10:50:30.737Z"
+    "criterion": 4,
+    "is_enabled": false
+  }
+},
+{
+  "model": "users.volunteerpreference",
+  "pk": 10,
+  "fields": {
+    "volunteer": 2,
+    "criterion": 4,
+    "is_enabled": false
+  }
+},
+{
+  "model": "users.volunteerpreference",
+  "pk": 11,
+  "fields": {
+    "volunteer": 3,
+    "criterion": 4,
+    "is_enabled": false
+  }
+},
+{
+  "model": "users.volunteerpreference",
+  "pk": 12,
+  "fields": {
+    "volunteer": 4,
+    "criterion": 4,
+    "is_enabled": false
   }
 }
 ]
